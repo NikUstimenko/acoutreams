@@ -1,8 +1,6 @@
 # acoutreams
 
-The package `acoutreams` adopts a framework of the package `treams` to
-acoustic scattering of waves at finite and at periodic arrangements of particles
-based on the T-matrix method.
+The package `AcouTREAMS` adopts the framework of the `TREAMS` package for acoustic wave scattering in finite and periodic arrangements of particles, based on the T-matrix method.
 
 ## Installation
 
@@ -10,7 +8,7 @@ based on the T-matrix method.
 
 ## Documentation
 
-The documentation can be found at https://tfp-photonics.github.io/treams.
+The documentation of `TREAMS` can be found at https://tfp-photonics.github.io/treams.
 
 ## Publications
 
