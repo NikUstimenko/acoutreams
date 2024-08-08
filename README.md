@@ -11,6 +11,10 @@ To install the package with pip, use
 ```sh
 pip install acoutreams
 ```
+Preliminarily, you have to also install original `treams`
+```sh
+pip install treams
+```
 
 ## Documentation
 
