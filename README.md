@@ -6,6 +6,12 @@ The package `AcouTREAMS` adopts the framework of the `TREAMS` package for acoust
 
 ### Installation using pip
 
+To install the package with pip, use
+
+```sh
+pip install acoutreams
+```
+
 ## Documentation
 
 The documentation of `TREAMS` can be found at https://tfp-photonics.github.io/treams.
