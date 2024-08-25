@@ -66,13 +66,13 @@ def to_ssw(l, m, kx, ky, kz, *args, **kwargs):
     
 def _to_scw(kzcw, m, kx, ky, kzpw, *args, **kwargs):  
     krho = np.sqrt(kx * kx + ky * ky)
-    if np.abs(kzcw - kzpw) <= 1e-14:
+    if np.abs(kzcw - kzpw) <= 1e-12:
         if m == 0:
             return np.power(1, 0, *args, **kwargs)
         if krho == 0:
             return np.power(1j, m, *args, **kwargs)
         return np.power((1j * kx + ky) / krho, m, *args, **kwargs)
-    elif np.abs(kzcw - kzpw) > 1e-14:
+    elif np.abs(kzcw - kzpw) > 1e-12:
         return 0.0j + sc.lpmv(0, 1, 0, *args, **kwargs)
     
 
